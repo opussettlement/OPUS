@@ -1,0 +1,325 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	/*background-color: rgb(50, 47, 107);*/
+	background-image: url("Deep_Space.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	margin: 0;
+	font-family: calibri;
+	transition: opacity 0.5s;
+}
+
+.header {
+	text-align: center;
+	color: white;
+	font-size: 2.5em;
+}
+
+#opus1 {
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#sserdlogo {
+	width: 150px;
+	height: 75px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#topic {
+	position: fixed;
+	width: 100%;
+	top: 25%;
+}
+
+#Top {
+	font-family: 'Dancing Script', cursive;
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom: 0;
+	color: rgb(255, 159, 55);
+}
+
+#Top1 {
+	font-family: 'Squada One', cursive;
+	padding: 0;
+	margin-top: 0;
+	color: #FFD8AE;
+}
+
+#image_header {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	left: 28%;
+}
+
+a {
+	text-decoration: none;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 55px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 0px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.fa-arrow-circle-up {
+	color: rgba(255, 159, 55, 0.7);
+	font-size: 50px;
+	transition: 0.3s;
+}
+
+.fa-arrow-circle-up:hover {
+	font-size: 55px;
+	color: rgba(255, 159, 55, 1);
+}
+
+.ic {
+	text-decoration: none;
+	font-family: calibri;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*******************************NAVBAR****************************/
+.sidenav {
+	height: 45%;
+	width: 0;
+	position: fixed;
+	z-index: 100;
+	top: 200px;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a{
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: rgb(255, 159, 55);
+	display: block;
+	transition: 0.3s;
+}
+
+.fa-minus {
+	color: rgb(255, 159, 55);
+}
+
+.sidenav a:hover, .fa-minus:hover{
+	color: rgb(255, 216, 174);
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#main {
+	transition: margin-left 0.5s;
+}
+
+.NavOpenUp {
+	position: fixed;
+	top: 250px;
+	color: rgb(255, 159, 55);
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+/*******************************NAVBAR end****************************/
+
+#footer {
+	position: fixed;
+	text-align: center;
+	color: #FFB05B;
+	align-items: flex-end;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	}
+
+#footer p {
+	color: #FFD8AE;
+}
+
+.Project {
+	position: absolute;
+	font-family: Arial black;
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+	left: 41%;
+}
+
+.Project p {
+	position: fixed;
+	left: 150px;
+	right: 100px;	
+	padding: 10px;
+	margin-bottom: 50px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+#project-container {
+	display: none;
+	position: absolute;
+	top: 10%;
+	width: 100%;
+}
+
+.Project h1 {
+	margin: 0;
+	color: rgb(255, 159, 55);
+}
+
+.Gallery {
+	position: absolute;
+	font-family: Arial black;
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+	left: 41%;
+}
+
+.Gallery h1 {
+	margin: 0;
+	color: rgb(255, 159, 55);
+}
+
+.Gallery p {
+	position: fixed;
+	left: 150px;
+	right: 100px;	
+	padding: 10px;
+	margin-bottom: 50px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+#gallery-container {
+	display: none;
+	position: absolute;
+	top: 10%;
+	width: 100%;
+}
+
+.About {
+	position: absolute;
+	font-family: Arial black;
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+	left: 41%;
+}
+
+.About h1 {
+	margin: 0;
+	color: rgb(255, 159, 55);
+}
+
+.About p {
+	position: fixed;
+	left: 150px;
+	right: 100px;	
+	padding: 10px;
+	margin-bottom: 50px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+#about-container {
+	display: none;
+	position: absolute;
+	top: 10%;
+	width: 100%;
+}
+
+#foottext {
+	font-family: 'Lobster', cursive;
+	bottom: 50px;
+	font-size: 2em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-top: 7px;
+	font-family: calibri;
+}
+
+i {
+	color: rgba(255, 159, 55, 0.4);
+	padding: 10px;
+	padding-right: 20px; 
+	padding-left: 20px;
+}
+
+.icon {
+	font-size: 25px;
+}
+
+.fa-facebook {
+	transition: transform .2s;
+}
+
+.fa-facebook:hover {
+	color: rgb(255, 159, 55);
+	transform: scale(1.5);
+}
+
+.fa-twitter {
+	transition: transform .2s;
+}
+
+.fa-twitter:hover {
+	color: rgb(255, 159, 55);
+	transform: scale(1.5);
+}
+
+.fa-linkedin {
+	transition: transform .2s;
+}
+
+.fa-linkedin:hover {
+	color: rgb(255, 159, 55);
+	transform: scale(1.5);
+}
+
+.fa-instagram {
+	transition: transform .2s;
+}
+
+.fa-instagram:hover {
+	color: rgb(255, 159, 55);
+	transform: scale(1.5);
+}
