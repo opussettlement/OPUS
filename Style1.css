@@ -157,6 +157,15 @@ a {
 }
 /*******************************NAVBAR end****************************/
 
+#report_download {
+	text-decoration: none;
+	color: white;
+	font-family: calibri;
+	font-size: 1.2em;
+	position: relative;
+	bottom: 0;
+}
+
 #footer {
 	position: fixed;
 	text-align: center;
@@ -197,6 +206,7 @@ a {
 	position: absolute;
 	top: 10%;
 	width: 100%;
+
 }
 
 .Project h1 {
