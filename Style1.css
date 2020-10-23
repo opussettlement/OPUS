@@ -3,7 +3,6 @@ html {
 }
 
 body {
-	/*background-color: rgb(50, 47, 107);*/
 	background-image: url("Deep_Space.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -18,14 +17,6 @@ body {
 	text-align: center;
 	color: white;
 	font-size: 2.5em;
-}
-
-#opus1 {
-	width: 75px;
-	height: 75px;
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 #sserdlogo {
