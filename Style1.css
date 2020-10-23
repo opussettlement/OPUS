@@ -159,9 +159,9 @@ a {
 
 #report_download {
 	text-decoration: none;
-	color: white;
-	font-family: calibri;
+	color: #FFB05B;
 	font-size: 1.2em;
+	font-style: italic;
 }
 
 #footer {
@@ -181,24 +181,6 @@ a {
 	color: #FFD8AE;
 }
 
-.Project {
-	position: absolute;
-	font-family: Arial black;
-	font-size: 35px;
-	padding: 0;
-	margin: 0;
-	left: 41%;
-}
-
-.Project p {
-	position: fixed;
-	left: 150px;
-	right: 100px;	
-	padding: 10px;
-	margin-bottom: 50px;
-	background-color: rgba(255, 255, 255, 0.2);
-}
-
 #project-container {
 	display: none;
 	position: absolute;
@@ -207,9 +189,27 @@ a {
 
 }
 
-.Project h1 {
-	margin: 0;
+#project-container h1 {
+	display: flex;
+	justify-content: center;
+	font-family: Arial black;
+	font-size: 60px;
 	color: rgb(255, 159, 55);
+}
+
+.cont {
+	position: absolute;
+	padding: 10px;
+	left: 150px;
+	margin-right: 100px;
+	background-color: rgba(255, 255, 255, 0.2);
+	font-size: 25px;
+	/*margin-bottom: 100px;*/
+}
+
+#git {
+	text-decoration: none;
+	color: #FFB05B;
 }
 
 .Gallery {
@@ -242,34 +242,34 @@ a {
 	width: 100%;
 }
 
-.About {
-	position: absolute;
-	font-family: Arial black;
-	font-size: 35px;
-	padding: 0;
-	margin: 0;
-	left: 41%;
-}
-
-.About h1 {
-	margin: 0;
-	color: rgb(255, 159, 55);
-}
-
-.About p {
-	position: fixed;
-	left: 150px;
-	right: 100px;	
-	padding: 10px;
-	margin-bottom: 50px;
-	background-color: rgba(255, 255, 255, 0.2);
-}
-
 #about-container {
 	display: none;
 	position: absolute;
 	top: 10%;
 	width: 100%;
+}
+
+#about-container h1 {
+	display: flex;
+	justify-content: center;
+	font-family: Arial black;
+	font-size: 60px;
+	color: rgb(255, 159, 55);
+}
+
+#about-container h2 {
+	color: #FFB05B;
+}
+
+.cont img {
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+
+.prof_link {
+	text-decoration: none;
+	color: white;
 }
 
 #foottext {
