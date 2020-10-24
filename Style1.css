@@ -249,7 +249,7 @@ a {
 
 #about-container h1 {
 	display: flex;
-	justify-content: right;
+	justify-content: center;
 	font-family: Arial black;
 	font-size: 60px;
 	color: rgb(255, 159, 55);
