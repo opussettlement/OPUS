@@ -99,7 +99,7 @@ a {
 	width: 0;
 	position: fixed;
 	z-index: 100;
-	top: 200px;
+	top: 220px;
 	left: 0;
 	background-color: rgba(0, 0, 0, 0.2);
 	overflow-x: hidden;
@@ -138,7 +138,7 @@ a {
 
 .NavOpenUp {
 	position: fixed;
-	top: 250px;
+	top: 270px;
 	color: rgb(255, 159, 55);
 }
 
