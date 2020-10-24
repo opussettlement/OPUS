@@ -249,7 +249,7 @@ a {
 
 #about-container h1 {
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 	font-family: Arial black;
 	font-size: 60px;
 	color: rgb(255, 159, 55);
@@ -262,7 +262,7 @@ a {
 .cont img {
 	width: 250px;
 	height: 250px;
-	float: center;
+	float: left;
 }
 
 .prof_link {
