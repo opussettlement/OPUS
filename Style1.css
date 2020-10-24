@@ -242,7 +242,7 @@ a {
 
 #about-container {
 	display: none;
-	position: absolute;
+	position: centre;
 	top: 10%;
 	width: 100%;
 }
