@@ -23,7 +23,7 @@ body {
 	width: 150px;
 	height: 75px;
 	position: absolute;
-	top: 0;
+	top: 25px;
 	left: 0;
 }
 
@@ -138,7 +138,7 @@ a {
 
 .NavOpenUp {
 	position: fixed;
-	top: 200px;
+	top: 100px;
 	color: rgb(255, 159, 55);
 }
 
